@@ -31,7 +31,7 @@
 └── test_RNN.py
 ```
 ## 使用方式
-A：在AI Studio上[运行本项目](https://aistudio.baidu.com/aistudio/usercenter)
+A：在AI Studio上[运行本项目] (https://aistudio.baidu.com/aistudio/projectdetail/1946566)
 B：测试程序：在根目录下运行python3 test_RNN.py，运行结果将保存到predict文件夹内。
              程序运行的将是B榜测试结果，如需运行A榜测试结果需将test_RNN.py代码的
              104行的B_board_112_seqs.txt改成test_nolabel.txt
