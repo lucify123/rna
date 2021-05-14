@@ -1,0 +1,15 @@
+About the DATA
+
+train.txt and dev.txt contain the data as training set and validation set. 
+train.txt contains 4,750 data points; dev.txt contains 250 data points.
+Each data point has four parts:
+(1) ID, e.g., ">id_1";
+(2) RNA sequence;
+(3) LinearFold predicted structure, where "." represents unpaired nucleotide, "(" and ")" represent base pairs;
+(4) Output labels, i.e., the unpaired probability of each position
+
+test_nolabel.txt contains the data as testing set of Leading Board A. 
+It contains 444 data points; each data point has three parts:
+(1) ID;
+(2) RNA sequence;
+(3) LinearFold predicted structure.
